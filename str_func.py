@@ -1,6 +1,6 @@
-def str_func(word):
+def str_upper(word):    # Изменение названия функции + добавил docstring
     return word.upper()
-
+"""Функция, которая принимает на вход строку и возвращает ее со всеми заглавными буквами. """
 
 def str_title(word):
     return word.title()
